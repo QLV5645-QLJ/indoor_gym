@@ -1,7 +1,6 @@
 import os
 import time 
 import rospy 
-from mpi4py import MPI
 
 from evaluate.load_tsv import TsvLoader
 from evaluate.stage_controller import PoseController,VelController
