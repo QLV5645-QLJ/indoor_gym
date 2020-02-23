@@ -4,7 +4,8 @@
 
 ## download dataset
 
-run `sh THOR_dataset/download_dataset.sh`
+run `cd THOR_dataset`
+run `sh download_dataset.sh`
 
 
 ## run test.py to load the world
