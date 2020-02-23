@@ -1,9 +1,10 @@
 # indoor_gym
 
-## requirement: stage,ros
+## requirement: stage,ros,stage_ros,gnome-terminal
 
 ## download dataset
 
-## launch stage and ros
+run `sh THOR_dataset/download_dataset.sh`
+
 
 ## run test.py to load the world
