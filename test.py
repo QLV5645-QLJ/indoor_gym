@@ -63,8 +63,10 @@ def mpi_control():
 
 if __name__ == "__main__":
     rospy.init_node('plot_human', anonymous=True)
-    env = IndoorGym()
-    env.make(1,1)
-    env.step(rank_range=range(9),move_type="pose")
 
+    script_dir = os.path.abspath(os.getcwd())
+    env = IndoorGym(launch_stage=True,world_path=script_dir+"/worlds/room1.world")
+    env.make(dataset_dir=script_dir+"/THOR_dataset/",obs_num=1,exp_id=1)
+    # env.step(rank_range=range(9),move_type="pose")
+    goal = env.step_scenarios(rank_range=range(9),scenario_id= 8,move_type="vel")
 
