@@ -162,6 +162,6 @@ object( pose [15.94 19.26 0.00 0.0])
 object( pose [13.40 21.11 0.00 0.0])
 
 #moving robot
-agent( pose [-5.4 -6.1 0.00 180.00])
+agent( pose [-4.4 -5.1 0.00 180.00])
 
 

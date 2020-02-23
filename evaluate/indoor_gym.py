@@ -98,7 +98,7 @@ class IndoorGym():
         Goal list: Goal 1: (4440, 8550) Goal 2: (9030, 3580) Goal 3: (1110, -3447) Goal 4: (-5468, -6159) Goal 5: (-130, 4150)
         """
         # self.goal_list = [[4.44,8.55],[9.030,3.580],[1.11,-3.447],[-5.468,-6.159],[-0.130,4.15]]
-        self.goal_list = [[5.5,7.0],[-5.4, -6.1]]
+        self.goal_list = [[5.5,7.0],[-4.4, -5.1]]
         if(launch_stage):
             self.launch_stage(world_path=world_path)
         return
